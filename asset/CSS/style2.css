@@ -1,0 +1,41 @@
+body {
+  font-family: "Martel", serif;
+}
+
+.banner {
+  background: url("https://i.postimg.cc/0jdxpw20/Screenshot-2021-10-17-12-12-07-336-com-google-android-youtube.jpg");
+  /* copyright image frome @cak.sonn*/
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  padding: 20% 0%;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-weight: 700;
+}
+
+.top {
+  padding-top: 80px;
+}
+
+.animasi:hover {
+  animation: scale 1s ease infinite;
+}
+
+@keyframes scale {
+  0% {
+    bottom: 8px;
+  }
+  49% {
+    bottom: -3px;
+  }
+  50% {
+    bottom: -3px;
+  }
+  99% {
+    bottom: 8px;
+  }
+  100% {
+    bottom: 8px;
+  }
+}
